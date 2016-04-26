@@ -220,7 +220,7 @@ bindcode 107  exec xfce4-screenshooter
 exec_always compton -f
 exec_always caffeine
 exec_always i3blocks
-exec_always redshift
+exec --no-startup-id redshift -l 60.169856:24.938379
 exec_always Firefox
 exec_always --no-startup-id /usr/local/bin/Telegram/Telegram
 exec_always --no-startup-id weechat
